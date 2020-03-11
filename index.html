@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+      <div class="row" >
+        <div class="col-sm-2 hour">8 AM</div>
+        <div class="col-sm-8" id="8"><form><input type="text" value="" id="input8" class="description"></form> </div>
+        <button class="saveBtn i:hover col-sm-2" id="btn8"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 hour">9 AM</div>
+        <div class="col-sm-8" id="9"><form><input type="text" value="" id="input9" class="description"></form></div>
+        <button class="saveBtn i:hover col-sm-2" id="btn9"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 hour">10 AM</div>
+        <div class="col-sm-8" id="10"><form><input type="text" id="input10" value="" class="description"></form></div>
+        <button class="saveBtn i:hover col-sm-2" id="btn10"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 hour">11 AM</div>
+        <div class="col-sm-8" id="11"><form><input type="text" id="input11" value="" class="description"></form></div>
+        <button class="saveBtn i:hover col-sm-2" id="btn11"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 hour">12 PM</div>
+        <div class="col-sm-8" id="12"><form><input type="text" id="input12" value="" class="description"></form></div>
+        <button class="col-sm-2 saveBtn i:hover" id="btn12"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 hour">1 PM</div>
+        <div class="col-sm-8" id="13"><form><input type="text" id="input13" value="" class="description"></form></div>
+        <button class="col-sm-2 saveBtn i:hover" id="btn13"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 hour">2 PM</div>
+        <div class="col-sm-8" id="14"><form><input type="text" id="input14" value="" class="description"></form></div>
+        <button class="col-sm-2 saveBtn i:hover" id="btn14"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 hour">3 PM</div>
+        <div class="col-sm-8" id="15"><form><input type="text" id="input15" value="" class="description"></form></div>
+        <button class="col-sm-2 saveBtn i:hover" id="btn15"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 hour">4 PM</div>
+        <div class="col-sm-8" id="16"><form><input type="text" id="input16" value="" class="description"></form></div>
+        <button class="col-sm-2 saveBtn i:hover" id="btn16"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 hour">5 PM</div>
+        <div class="col-sm-8" id="17"><form><input type="text" id="input17" value="" class="description"></form></div>
+        <button class="col-sm-2 saveBtn i:hover" id="btn17"><i class="fas fa-save"></i></button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
