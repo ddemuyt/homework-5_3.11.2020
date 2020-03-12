@@ -1,3 +1,4 @@
+//Displays current day on planner
 $("#currentDay").text(moment().format("dddd" + ", " + "MMM Do"));
 
 var realHour = moment().hour();
@@ -20,7 +21,6 @@ $(".col-sm-8").each(function(){
 });
 
 //Save input as localstorage
-// for (var i = 0; i < 10; i++){
 $("input").each(function(){
     $("#btn8").click(function(){
         localStorage.setItem("8", $("#input8").val());
@@ -64,9 +64,7 @@ $("input").each(function(){
 
 });
 
-//if getitem is null, set text area to blank
-//else getitem ("#") into $(textarea id . val)
-
+//Determines whether to get localstorage item or leave input blank
 if (localStorage.getItem("8") !== null){
      $("#input8").attr("value", localStorage.getItem("8"));
 } else {
