@@ -1,7 +1,6 @@
 $("#currentDay").text(moment().format("dddd" + ", " + "MMM Do"));
 
-var realHour = 11
-moment().hour();
+var realHour = moment().hour();
 
 
 //Sets classes based on the hour of the day 
