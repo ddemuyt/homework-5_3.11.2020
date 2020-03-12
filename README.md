@@ -23,7 +23,7 @@ Finally, I created a function which clears all the divs' input value and empties
 All the other coding was based around HTML classes and Bootstrap design. It was simply a matter of tweaking it how I wanted it.
 
 
-##Contributers
+## Contributers
 Angela Stevenson 
 
 ## License
